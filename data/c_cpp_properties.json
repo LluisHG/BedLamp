@@ -1,0 +1,36 @@
+{
+  "configurations": [
+    {
+      "name": "ESP8266",
+      "includePath": [
+        "${workspaceFolder}",
+        "[AppData_Local]/Arduino15/packages/esp8266/hardware/esp8266/3.1.2/cores/esp8266",
+        "[AppData_Local]/Arduino15/packages/esp8266/hardware/esp8266/3.1.2/tools/sdk/include",
+        "[AppData_Local]/Arduino15/packages/esp8266/hardware/esp8266/3.1.2/tools/sdk/lwip2/include",
+        "[AppData_Local]/Arduino15/packages/esp8266/hardware/esp8266/3.1.2/libraries/**",
+        "[ARDUINO_DOCUMENT_FOLDER]/libraries/FastLED/src"
+      ],
+      "browse": {
+        "path": [
+          "${workspaceFolder}",
+          "[AppData_Local]/Arduino15/packages/esp8266/hardware/esp8266/3.1.2/cores/esp8266",
+          "[ARDUINO_DOCUMENT_FOLDER]/libraries/FastLED/src"
+        ],
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "forcedInclude": [
+        "[AppData_Local]/Arduino15/packages/esp8266/hardware/esp8266/3.1.2/cores/esp8266/Arduino.h"
+      ],
+      "defines": [
+        "ESP8266",
+        "ARDUINO=10819",
+        "F_CPU=80000000L"
+      ],
+      "cStandard": "c11",
+      "cppStandard": "c++17",
+      "compilerPath": "[AppData_Local]/Arduino15/packages/esp8266/tools/xtensa-lx106-elf-gcc/3.1.0-gcc10.3-e5f9fec/bin/xtensa-lx106-elf-gcc.exe",
+      "intelliSenseMode": "gcc-x64"
+    }
+  ],
+  "version": 4
+}
