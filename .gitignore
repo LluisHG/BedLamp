@@ -42,3 +42,6 @@
 
 # Arduino build output
 build/
+
+# CodeQL analysis files
+_codeql_detected_source_root
