@@ -1,0 +1,6 @@
+{
+    "board": "arduino:avr:nano",
+    "sketch": "src/main.cpp",
+    "port": "",
+    "output": "build"
+}
